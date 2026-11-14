@@ -17,7 +17,9 @@
     "hexo-generator-tag": "^2.0.0",
     "hexo-renderer-ejs": "^2.0.0",
     "hexo-renderer-marked": "^7.0.0",
-    "hexo-server": "^3.0.0"
+    "hexo-server": "^3.0.0",
+    "upyun": "^3.4.6",
+    "js-yaml": "^4.1.0"
   },
   "engines": {
     "node": ">=22"
@@ -26,6 +28,6 @@
     "clean": "hexo clean",
     "build": "hexo generate",
     "start": "hexo server",
-    "deploy": "hexo deploy"
+    "deploy": "hexo deploy && node tools/finalize-upyun.cjs"
   }
 }
