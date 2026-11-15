@@ -1,0 +1,20 @@
+# Site-specific links; keep the theme reusable.
+
+site_links:
+  - { label: 个人主页, url: 'https://naaln.com/' }
+  - { label: 博客, url: 'https://blog.naaln.com/' }
+  - { label: 相册, url: 'https://photo.naaln.com/', current: true }
+
+social:
+  home: https://naaln.com/
+  博客: https://blog.naaln.com/
+gallery:
+  explore:
+    title: 照片之外
+    description: 看过风景，也可以读读旅途中的文字，或认识镜头后的人。
+    links:
+      - { label: 读旅行与见闻, url: 'https://blog.naaln.com/categories/Travel-Visuals/' }
+      - { label: 认识我, url: 'https://naaln.com/#about' }
+
+# Refresh CSS after adding contextual links.
+version: 0.1.1-sites-20261115
